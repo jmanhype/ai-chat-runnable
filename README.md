@@ -10,10 +10,14 @@ A fully functional React chat application with AI responses.
 ✅ Dark/Light mode toggle
 ✅ Search messages
 ✅ Delete messages
+✅ Clear all messages
 ✅ Export chat history
 ✅ Persistent storage (localStorage)
 ✅ Responsive design
 ✅ Beautiful animations
+✅ Error handling for storage operations
+✅ Accessibility (ARIA labels, keyboard navigation)
+✅ Comprehensive test coverage
 
 ## Installation
 
@@ -34,6 +38,16 @@ npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Running Tests
+
+```bash
+# Run test suite
+npm test
+
+# Run tests with coverage
+npm test -- --coverage --watchAll=false
+```
 
 ## Building for Production
 
